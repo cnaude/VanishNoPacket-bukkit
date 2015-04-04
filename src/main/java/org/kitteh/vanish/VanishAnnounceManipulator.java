@@ -29,7 +29,7 @@ public final class VanishAnnounceManipulator {
     VanishAnnounceManipulator(VanishPlugin plugin) {
         this.plugin = plugin;
         this.playerOnlineStatus = new HashMap<String, Boolean>();
-        this.delayedAnnouncePlayerList = new ArrayList<String>();
+        this.delayedAnnouncePlayerList = new ArrayList<>();
     }
 
     public void addToDelayedAnnounce(String player) {
